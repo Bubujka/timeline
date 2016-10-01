@@ -1,0 +1,24 @@
+{
+  "name": "timeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bubujka/timeline.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bubujka/timeline/issues"
+  },
+  "homepage": "https://github.com/bubujka/timeline#readme",
+  "devDependencies": {
+    "dotenv": "2.0.0",
+    "knex": "0.12.2",
+    "mysql": "2.11.1"
+  }
+}
