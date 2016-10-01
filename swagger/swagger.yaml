@@ -1,0 +1,22 @@
+---
+swagger: "2.0"
+
+info:
+  description: |
+    what?
+  version: "1.0.0"
+  title: whaaat?
+  contact:
+    email: "zendzirou@gmail.com"
+
+host: ""
+basePath: "/"
+schemes:
+  - "http"
+produces: ['application/json']
+
+tags: []
+paths: {}
+responses: {}
+parameters: {}
+definitions: {}
