@@ -16,7 +16,97 @@ schemes:
 produces: ['application/json']
 
 tags: []
-paths: {}
-responses: {}
-parameters: {}
-definitions: {}
+paths:
+  /api/events:
+    get:
+      summary: Получить список событий за определённое время
+      description: По умолчанию - за текущий день
+      parameters:
+        - $ref: '#/parameters/Since'
+        - $ref: '#/parameters/To'
+        - $ref: '#/parameters/Interval'
+      responses:
+        200:
+          $ref: '#/responses/EventsList'
+    post:
+      summary: Зафиксировать какое-то событие в базе
+      parameters:
+        - $ref: '#/parameters/EventName'
+        - $ref: '#/parameters/EventTime'
+  /api/events/types:
+    get:
+      summary: Получить список событий, что есть в базе
+      responses:
+        200:
+          $ref: '#/responses/EventTypesList'
+responses:
+  EventsList:
+    description: Список событий
+    schema:
+      type: array
+      items:
+        $ref: '#/definitions/Event'
+  EventTypesList:
+    description: Список событий что уже есть
+    schema:
+      type: array
+      items:
+        $ref: '#/definitions/EventType'
+parameters:
+  Since:
+    type: number
+    required: false
+    description: Время в unixtime, начиная с которого искать
+    in: query
+    name: since
+  To:
+    type: number
+    required: false
+    description: Время в unixtime, до которого искать
+    in: query
+    name: to
+  Interval:
+    type: string
+    enum: [today, thisweek, thismonth]
+    required: false
+    description: Предопределённый интервал, за который нужны события
+    in: query
+    name: interval
+  EventName:
+    type: string
+    required: true
+    example: Пошел спать
+    in: formData
+    description: Название события
+    name: name
+  EventTime:
+    type: number
+    required: false
+    example: 1475355463
+    format: unixtime
+    in: formData
+    description: Время в unixtime. По дефолту - текущее
+    name: time
+definitions:
+  EventType:
+    type: object
+    properties:
+      name:
+        type: string
+        example: Пошел спать
+  Event:
+    type: object
+    properties:
+      id:
+        type: number
+        example: 15
+      name:
+        type: string
+        example: Пошул спать
+      time:
+        type: number
+        format: unixtime
+        example: 1475355463
+      is_user:
+        type: boolean
+        description: Событие системное или пользовательское
