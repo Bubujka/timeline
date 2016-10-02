@@ -15,6 +15,12 @@ schemes:
   - "http"
 produces: ['application/json']
 
+securityDefinitions:
+  auth:
+    type: basic
+security:
+  -
+    auth: []
 tags: []
 paths:
   /api/events:

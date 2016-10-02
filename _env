@@ -1,4 +1,7 @@
+FIRST_USER='bubujka'
+FIRST_USER_PASSWORD='qwerty'
 MYSQL_PASSWORD=''
 MYSQL_HOST='localhost'
 MYSQL_USER='timeline'
 MYSQL_DATABASE='timeline'
+# DISABLE_AUTH='true'
