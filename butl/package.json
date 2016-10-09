@@ -11,6 +11,7 @@
   "devDependencies": {
     "chalk": "1.1.3",
     "commander": "2.9.0",
+    "expand-tilde": "1.2.2",
     "inquirer": "1.2.1",
     "request": "2.75.0"
   }
