@@ -5,6 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "run-p migrate butl:link backend:deps",
+    "butl:link": "cd butl; npm link",
+    "backend:deps": "cd backend; composer install",
     "migrate": "knex migrate:latest"
   },
   "repository": {
@@ -21,5 +24,8 @@
     "dotenv": "2.0.0",
     "knex": "0.12.2",
     "mysql": "2.11.1"
+  },
+  "dependencies": {
+    "npm-run-all": "^4.0.1"
   }
 }

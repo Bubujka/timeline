@@ -14,7 +14,7 @@
             "reference": "fc08354828f8fd3245f77a66b9e23a6bca48297e",
             "shasum": ""
         },
-        "time": "2014-12-30 15:22:37",
+        "time": "2014-12-30T15:22:37+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -46,7 +46,7 @@
         "require": {
             "php": ">=5.4.0"
         },
-        "time": "2016-06-12 19:08:51",
+        "time": "2016-06-12T19:08:51+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -91,7 +91,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2016-08-06 14:39:51",
+        "time": "2016-08-06T14:39:51+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -143,7 +143,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2015-09-11 15:10:35",
+        "time": "2015-09-11T15:10:35+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -202,7 +202,7 @@
             "phpunit/phpunit": "^4.0",
             "squizlabs/php_codesniffer": "^2.5"
         },
-        "time": "2016-07-26 15:12:13",
+        "time": "2016-07-26T15:12:13+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -267,7 +267,7 @@
             "phpunit/phpunit": "^5.0",
             "slim/slim": "^3.0"
         },
-        "time": "2016-03-04 09:48:50",
+        "time": "2016-03-04T09:48:50+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -314,7 +314,7 @@
         "require": {
             "php": ">=5.3.0"
         },
-        "time": "2016-09-19 16:02:08",
+        "time": "2016-09-19T16:02:08+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -393,7 +393,7 @@
             "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
             "sentry/sentry": "Allow sending log messages to a Sentry server"
         },
-        "time": "2016-07-29 03:23:52",
+        "time": "2016-07-29T03:23:52+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -443,7 +443,7 @@
         "require": {
             "php": ">=5.5.9"
         },
-        "time": "2016-09-02 02:12:52",
+        "time": "2016-09-02T02:12:52+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -494,7 +494,7 @@
         "require": {
             "php": ">=5.6"
         },
-        "time": "2016-02-04 12:56:52",
+        "time": "2016-02-04T12:56:52+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -539,7 +539,7 @@
         "require": {
             "php": ">=5.6.0"
         },
-        "time": "2015-07-28 20:34:47",
+        "time": "2015-07-28T20:34:47+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -586,7 +586,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.4"
         },
-        "time": "2015-11-11 19:50:13",
+        "time": "2015-11-11T19:50:13+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -642,7 +642,7 @@
         "require-dev": {
             "phpunit/phpunit": "~5"
         },
-        "time": "2016-01-28 13:25:10",
+        "time": "2016-01-28T13:25:10+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -692,7 +692,7 @@
         "suggest": {
             "ext-uopz": "*"
         },
-        "time": "2015-10-12 03:26:01",
+        "time": "2015-10-12T03:26:01+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -744,7 +744,7 @@
             "ext-mbstring": "*",
             "phpunit/phpunit": "~4.4"
         },
-        "time": "2016-06-17 09:04:28",
+        "time": "2016-06-17T09:04:28+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -811,7 +811,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.8 || ^5.0"
         },
-        "time": "2016-08-18 05:49:44",
+        "time": "2016-08-18T05:49:44+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -863,7 +863,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.8"
         },
-        "time": "2015-12-08 07:14:41",
+        "time": "2015-12-08T07:14:41+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -919,7 +919,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.4"
         },
-        "time": "2015-07-26 15:48:44",
+        "time": "2015-07-26T15:48:44+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -987,7 +987,7 @@
             "phpunit/phpunit": "~4.0",
             "squizlabs/php_codesniffer": "~2.0"
         },
-        "time": "2015-06-14 21:17:01",
+        "time": "2015-06-14T21:17:01+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1036,7 +1036,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2015-06-21 13:50:34",
+        "time": "2015-06-21T13:50:34+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -1091,7 +1091,7 @@
         "suggest": {
             "ext-soap": "*"
         },
-        "time": "2016-09-06 16:07:45",
+        "time": "2016-09-06T16:07:45+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1143,7 +1143,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4|~5"
         },
-        "time": "2016-05-12 18:03:57",
+        "time": "2016-05-12T18:03:57+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -1186,7 +1186,7 @@
         "require": {
             "php": ">=5.3.3"
         },
-        "time": "2015-06-21 13:08:43",
+        "time": "2015-06-21T13:08:43+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1238,7 +1238,7 @@
         "require-dev": {
             "phpunit/phpunit": "~5"
         },
-        "time": "2016-02-13 06:45:14",
+        "time": "2016-02-13T06:45:14+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1286,7 +1286,7 @@
         "require-dev": {
             "phpunit/phpunit": "~4.2"
         },
-        "time": "2015-09-15 10:49:45",
+        "time": "2015-09-15T10:49:45+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1348,7 +1348,7 @@
             "ext-xdebug": ">=2.4.0",
             "ext-xmlwriter": "*"
         },
-        "time": "2016-07-26 14:39:29",
+        "time": "2016-07-26T14:39:29+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1402,7 +1402,7 @@
             "phpunit/phpunit": "^4.6",
             "sebastian/version": "^1.0.1"
         },
-        "time": "2016-08-09 15:02:57",
+        "time": "2016-08-09T15:02:57+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1453,7 +1453,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.6"
         },
-        "time": "2015-12-27 11:43:31",
+        "time": "2015-12-27T11:43:31+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1511,7 +1511,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^5.2||^4.8.24"
         },
-        "time": "2016-06-10 07:14:17",
+        "time": "2016-06-10T07:14:17+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1562,7 +1562,7 @@
             "mockery/mockery": "^0.9.4",
             "phpunit/phpunit": "^4.4"
         },
-        "time": "2016-09-30 07:12:33",
+        "time": "2016-09-30T07:12:33+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -1609,7 +1609,7 @@
         "require-dev": {
             "phpspec/phpspec": "^2.0"
         },
-        "time": "2016-06-07 08:13:47",
+        "time": "2016-06-07T08:13:47+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1670,7 +1670,7 @@
             "doctrine/collections": "1.*",
             "phpunit/phpunit": "~4.1"
         },
-        "time": "2016-09-16 13:37:59",
+        "time": "2016-09-16T13:37:59+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -1742,7 +1742,7 @@
             "ext-xdebug": "*",
             "phpunit/php-invoker": "~1.1"
         },
-        "time": "2016-09-21 14:40:13",
+        "time": "2016-09-21T14:40:13+00:00",
         "bin": [
             "phpunit"
         ],
@@ -1798,7 +1798,7 @@
         "require-dev": {
             "phpunit/phpunit": "^4.8 || ^5.0"
         },
-        "time": "2016-09-01 10:05:43",
+        "time": "2016-09-01T10:05:43+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -1853,7 +1853,7 @@
             "squizlabs/php_codesniffer": "^2.3",
             "zendframework/zend-diactoros": "^1.3"
         },
-        "time": "2016-09-21 20:50:02",
+        "time": "2016-09-21T20:50:02+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
