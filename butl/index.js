@@ -37,6 +37,13 @@ function print(t) {
    console.log(t); // eslint-disable-line
 }
 
+function notify(message) {
+  notifier.notify({
+    title: 'Timeline:',
+    message,
+  });
+}
+
 program.version('0.0.1');
 program
   .command('checklogin <user> <pass>')
@@ -95,10 +102,7 @@ program
         if (err) {
           throw err;
         }
-        notifier.notify({
-          title: 'Timeline:',
-          message: name,
-        });
+        notify(name);
       });
     });
   });
@@ -163,7 +167,7 @@ program
           if (err) {
             throw err;
           }
-          print(chalk.green('Синхронизировано'));
+          notify('Синхронизировал =)')
         });
       }
     });
